@@ -3,8 +3,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 type Props = {}
-
-
 // Define the About component
 function About({}: Props) {
   return (
