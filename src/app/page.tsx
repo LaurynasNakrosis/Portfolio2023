@@ -26,14 +26,9 @@ export default async function Home() {
       </Head>
 
       {/* Header */}
-      {socials.map((social) => (
-        <Header 
-          key={social._id}
-          title={social.title}
-          slug={social.slug}
-          url={social.url}
-        />
-      ))}
+
+        <Header />
+
 
       {/* Hero */}
       <section id="hero" className='snap-center'>
