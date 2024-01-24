@@ -1,3 +1,4 @@
+{/* From Deploy Branch */}
 import Head from 'next/head';
 import type { GetStaticProps, NextPage } from 'next';
 import Skills from '../components/Skills';
