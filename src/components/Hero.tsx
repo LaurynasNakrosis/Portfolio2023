@@ -5,7 +5,6 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles';
 import Link from 'next/link';
 import Image from 'next/image';
-import './Hero.css'
 
 type Props = {}
 
@@ -13,7 +12,7 @@ export default function Hero({}: Props) {
   const [text,count] = useTypewriter({
     words: ["Hi, The Name's Laurynas Nakrosis","Guy-who-loves-Coffee.tsx", "<ButLovesToCodeMore />"],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 3000,
   })
   return (
   <div className= ' py-8 sm:py-10 h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
@@ -24,7 +23,7 @@ export default function Hero({}: Props) {
           className="bg-white relative rounded-full h-20 w-20 mx-auto sm:w-36 sm:h-36 object-cover "
           width={100}
           height={100}
-          src='https://media.licdn.com/dms/image/C4D03AQEogDmoacJn4Q/profile-displayphoto-shrink_400_400/0/1639867842897?e=1700092800&v=beta&t=szkfAV00cb437cPqRkSLV3xLS5bPy5QHEz9_759WzSY' 
+          src='https://media.licdn.com/dms/image/D4E03AQFdvOgeaAqqIA/profile-displayphoto-shrink_800_800/0/1704877804333?e=1710979200&v=beta&t=tNn0c0O0Mmw_SyK2PJvNLWYlDc7okI6hHI4dwrzikqE' 
           alt='Picture of the author'
           priority 
         />

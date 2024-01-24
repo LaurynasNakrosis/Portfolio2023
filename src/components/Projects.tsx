@@ -19,7 +19,7 @@ function Projects({}: Props) {
             {projects.map((projects, i) => (
                 /* Missing key element */
                 <div key={i} 
-                     className='h-screen w-screem flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 '>
+                     className='border w-[1440px] h-[750px]  flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 '>
                         <motion.img 
                         initial={{ y: -300, opacity: 0, }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ function Projects({}: Props) {
                         className='w-[250px] h-[150px]'              
                         src="https://cdn.sanity.io/images/ltuexkre/production/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375.png"
                         alt="" />
-                <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+                <div className='border space-y-10 px-0 md:px-10 max-w-6xl'>
                     <h4 className='text-4xl font-semibold text-center'>
                         <span>Case study {i + 1} of {projects.length}: </span> {" "}Project
                     </h4>
