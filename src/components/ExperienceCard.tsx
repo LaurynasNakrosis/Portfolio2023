@@ -8,14 +8,14 @@ type Props = {}
 function ExperienceCard({}: Props) {
   return (
     // Article container for the experience card
-    <article className='border bg-[#2f2f2f] flex flex-col  flex-shrink-0 rounded-lg items-center space-y-0  
-     py-17 sm:pt-10
-    h-[200px]      w-[200px] ml-[200px]
+    <article className='border border-cyan-200 bg-[#2f2f2f] flex flex-col  flex-shrink-0 rounded-lg items-center space-y-0  
+     px-4 py-6 sm:pt-10
+    h-[400px]      w-[200px] ml-10 sm:border-black sm:ml-[200px]
     sm:w-[350px]  sm:h-[350px] 
     md:w-[600px]  md:h-[550px] 
     lg:w-[850px]  lg:h-[600px] lg:ml-[650px] 
     xl:w-[1000px] xl:h-[480px] 
-    snap-center  p-2 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
+    snap-center hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
       
       <ExperienceCardContent/>
       

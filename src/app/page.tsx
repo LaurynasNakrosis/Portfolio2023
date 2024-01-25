@@ -15,10 +15,10 @@ import Image from 'next/image';
 // Export the default Home component
 export default async function Home() {
   // Fetch social media data
-  const socials = await getSocials();
+  //const socials = await getSocials();
 
   // Log social media information
-  console.log(socials);
+  //console.log(socials);
 
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track--gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
