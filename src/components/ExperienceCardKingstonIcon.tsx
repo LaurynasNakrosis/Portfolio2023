@@ -1,6 +1,6 @@
 "use client"
 import { motion } from 'framer-motion';
-export default function ExperienceCardContent () {
+export default function ExperienceCardKingstonIcon () {
     return(
       <motion.img 
       initial={{
@@ -10,8 +10,8 @@ export default function ExperienceCardContent () {
       transition={{ duration: 1.2 }}
       whileInView={{ opacity: 1, y: 0 }}
       //viewport={{ once: true }}
-      className=' rounded-full 
-      w-20 h-20 
+      className=' rounded-full p-2
+      h-[80px] w-[80px] 
       md:h-[140px] md:w-[140px]  
       xl:w-[150px] xl:h-[150px] 
       object-cover object-center'

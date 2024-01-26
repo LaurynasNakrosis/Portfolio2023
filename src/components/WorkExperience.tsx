@@ -1,37 +1,24 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import ExperienceCard from './ExperienceCard';
+import ExperienceCardKingston from './ExperienceCardKingston';
 
 type Props = {};
 
 function WorkExperience({}: Props) {
-  useEffect(() => {
-    // This block of code will run when the component mounts
-    console.log('WorkExperience component mounted');
-
-    // If you need to perform cleanup when the component is unmounted,
-    // you can return a function from useEffect
-    return () => {
-      console.log('WorkExperience component will unmount');
-    };
-  }, []); // The empty dependency array ensures that the effect runs only once on mount
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1.5, x: 0 }}
-      className='  h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center space-y-0'
+      className='border border-red-600 h-screen flex relative overflow-hidden pb-12 flex-col text-left md:flex-row max-w-full px-1 justify-evenly mx-auto items-center space-y-1'
     >
-      <h3 className='pl-5 absolute top-24 uppercase text-sm tracking-[10px] sm:tracking-[20px] text-gray-500  md:text-2xl'>
+      <h3 className='border border-red-700 pl-5 absolute top-16 uppercase text-sm tracking-[10px] sm:tracking-[20px] text-gray-500  md:text-2xl'>
         Experience
       </h3>
-      <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+      <div className='border border-red-700 w-full my-10 flex space-x-2  sm:space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
+        <ExperienceCardKingston />
+        <ExperienceCardKingston />
       </div>
     </motion.div>
   );
