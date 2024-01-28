@@ -1,7 +1,11 @@
 // Import necessary libraries and components
 "use client"
 import React from 'react';
-import ExperienceCardKingstonIcon from './ExperienceCardKingstonIcon';
+import Image from 'next/image';
+import ExperienceCardAssetsIcon from './ExperienceCardAssetsIcon';
+import Oracle from '../app/Icons/Oracle.png'
+import CSS from '../app/Icons/css3-alt.svg'
+import Java from '../app/Icons/Java.png'
 type Props = {}
 
 // Define the ExperienceCard component
@@ -15,20 +19,42 @@ function ExperienceCard({}: Props) {
 
     snap-center hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
 
-      <ExperienceCardKingstonIcon/>
+      <ExperienceCardAssetsIcon/>
       <div className='  px-0 md:px-10 flex flex-col space-y-2  '>
         {/* Display job title */}
         <h4 className=' 
         text-[18px]
         sm:text-[35px] sm:tracking-auto
         xl:text-5xl 
-        font-light'>Kingston University</h4>
+        font-light'>Assets Management Group</h4>
         
         {/* Display company name */}
-        <p className=' font-bold text-[12px] sm:text-[16px]'>Computer Science With Honours</p>
+        <p className=' font-bold text-[12px] sm:text-[16px]'>Junior Programmer</p>
+        
+        {/* Display logos */}
+        <div className=' flex space-x-1'>
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full bg-[rgb(36,36,36)]'
+            src={Oracle}
+            alt=''
+            width={300}
+            height={300}
+          />
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full bg-[#9c7626]'
+            src={CSS}
+            alt=''
+            width={300}
+            height={300}
+          />
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full bg-[#9c7626] '
+            src={Java}
+            alt=''
+            width={300}
+            height={300}
+          />
+        </div>
         
         {/* Display start and end date */}
-          <p className=' uppercase text-gray-300 text-sm' >2020 - 2023</p>
+          <p className=' uppercase text-gray-300 text-sm' >2023 - Present</p>
 
         {/* Display summary points */}
           <ul className=' list-disc space-y-0 ml-3 

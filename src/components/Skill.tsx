@@ -1,4 +1,4 @@
-//"use client"
+"use client"
 import React from 'react'
 import { motion } from 'framer-motion'
 
@@ -8,18 +8,18 @@ type Props = {
 
 function Skill({ directionLeft }: Props) {
   return (
-    <div className='group relative flex cursor-pointer'>
+    <div className='border group relative flex items-center cursor-pointer'>
         <motion.img
           initial={{
-            x: directionLeft ? -200 : 200,
+            x: directionLeft ? -350 : 100,
             opacity: 0
           }}
           transition={{ duration: 1}}
           whileInView={{ opacity: 1, x: 0}}
           src='https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_96102ac6497377cd53da621075fe828e/sanity.png'
-          className='rounded-full border border-gray-500 object-cover w-[50px] h-[50px]  md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
+          className='rounded-full m-3  border-gray-500 object-cover w-[30px] h-[30px]  md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out'
         />
-        <div className='absolute opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out group-hover:bg-white w-[50px] h-[50px] md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
+        <div className='absolute m-3 opacity-0 group-hover:opacity-60 transition duration-300 ease-in-out group-hover:bg-white w-[30px] h-[30px] md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
           <div className=' flex items-center justify-center h-full'>
             <p className='text:-2xl md:text-3xl font-bold text-black opacity-100 '>100%</p>
           </div>

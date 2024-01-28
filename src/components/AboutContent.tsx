@@ -13,7 +13,8 @@ import dynamic from "next/dynamic";
       className='flex flex-col py-20 px-10 mx-auto relative h-screen  items-center justify-center sm:justify-evenly  text-center md:text-sm  md:text-left md:flex-row max-w-[2000px]  '
     >
       {/* Display the "About" title */}
-      <div className=' pl-2.5 sm:pl-5 absolute top-10  md:top-24 mt-8 sm:mt-2 uppercase tracking-[10px] sm:tracking-[20px] text-gray-500 text-small md:text-2xl '>
+      <div className=' pl-5  absolute top-16 uppercase text-small tracking-[10px] text-gray-500
+      md:top-24 mt-8 sm:mt-2 sm:pl-5   sm:tracking-[20px]   md:text-2xl '>
         About
       </div>
       

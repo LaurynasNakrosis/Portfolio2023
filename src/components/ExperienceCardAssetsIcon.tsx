@@ -11,12 +11,12 @@ export default function ExperienceCardKingstonIcon () {
       whileInView={{ opacity: 1, y: 0 }}
       //viewport={{ once: true }}
       className=' rounded-full p-2
-      h-[80px] w-[80px] 
+      h-[85px] w-[85px] 
       sm:h-[120px] sm:w-[120px]
       md:h-[140px] md:w-[140px]  
       xl:w-[150px] xl:h-[150px] 
       object-cover object-center'
-      src='https://studentconnect.org/uploads/institutions/65246278198e0.jpg' 
+      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCVqIgqSG7QQcsGUbvoAvLN07cgOVB_WbbCQ&usqp=CAU' 
       alt=''
     />
     )
