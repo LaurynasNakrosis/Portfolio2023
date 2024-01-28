@@ -25,7 +25,7 @@ function ContactMe({}: Props) {
   // Define the form submission handler
   const onSubmit: SubmitHandler<Inputs> = data => {
     // Construct the email link and open default email client
-    window.location.href = `mailto:laurynaskingston@outlook?subject=${data.subject}&body=Hi, my name is ${data.name}. ${data.message} (${data.email})`;
+    window.location.href = `mailto:laurynaskingston@outlook.com?subject=${data.subject}&body=Hi, my name is ${data.name}. ${data.message} (${data.email})`;
   };
   return (
     // Container for the Contact Me section
