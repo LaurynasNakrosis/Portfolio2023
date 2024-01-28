@@ -21,21 +21,21 @@ function BackgroundCircles({}: Props) {
         transition={{
             duration: 3.5,
         }}
-        className='relative flex justify-center items-center p-5'>
+        className=' relative flex justify-center items-center top-[75px] sm:top-50'>
             {/* First animated circle */}
-            <div className=' absolute border border-[#333333] rounded-full   h-[76px] w-[76px]  sm:h-[152px] sm:w-[152px] mt-64  animate-ping inline-flex' />
+            <div className=' absolute border border-[#333333] rounded-full   h-[76px] w-[76px]  md:h-[152px] md:w-[152px] animate-ping inline-flex' />
             
             {/* Second animated circle */}
-            <div className='rounded-full border border-[#333333]            h-[114px] w-[114px] sm:h-[228px] sm:w-[228px] absolute mt-64 ' />
+            <div className='rounded-full border border-[#333333]            h-[114px] w-[114px] md:h-[228px] md:w-[228px] absolute  ' />
             
             {/* Third animated circle */}
-            <div className='rounded-full border border-[#333333]            h-[190px] w-[190px] sm:h-[380px] sm:w-[380px] absolute mt-64 ' />
+            <div className='rounded-full border border-[#333333]            h-[190px] w-[190px] md:h-[380px] md:w-[380px] absolute  ' />
             
             {/* Fourth animated circle */}
-            <div className='rounded-full border border-[#F7AB0A] opacity-20 h-[247px] w-[247px] sm:h-[494px] sm:w-[494px] absolute mt-64 animate-pulse'/>
+            <div className='rounded-full border border-[#F7AB0A] opacity-20 h-[247px] w-[247px] md:h-[494px] md:w-[494px] absolute animate-pulse'/>
             
             {/* Fifth animated circle */}
-            <div className='rounded-full border border-[#333333]            h-[304px] w-[304px] sm:h-[604px] sm:w-[604px] absolute mt-64 ' />
+            <div className='rounded-full border border-[#333333]            h-[304px] w-[304px] md:h-[604px] md:w-[604px] absolute ' />
     </motion.div>
   );
 }
