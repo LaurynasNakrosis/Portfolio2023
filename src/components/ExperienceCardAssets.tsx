@@ -3,9 +3,14 @@
 import React from 'react';
 import Image from 'next/image';
 import ExperienceCardAssetsIcon from './ExperienceCardAssetsIcon';
-import Oracle from '../app/Icons/Oracle.png'
-import CSS from '../app/Icons/css3-alt.svg'
-import Java from '../app/Icons/Java.png'
+import GitHub from '../app/Icons/GitHub.png'
+import Tailwind from '../app/Icons/Tailwind.svg'
+import JavaScript from '../app/Icons/javascript-svgrepo-com.svg'
+import HTML from '../app/Icons/HTML.svg'
+import react from '../app/Icons/React.svg'
+import node from '../app/Icons/nodejs-icon.svg'
+import oracle from '../app/Icons/oracle-svgrepo-com.svg'
+
 type Props = {}
 
 // Define the ExperienceCard component
@@ -32,25 +37,50 @@ function ExperienceCard({}: Props) {
         <p className=' font-bold text-[12px] sm:text-[16px]'>Junior Programmer</p>
         
         {/* Display logos */}
-        <div className=' flex space-x-1'>
-          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full bg-[rgb(36,36,36)]'
-            src={Oracle}
+        <div className=' flex space-x-1 '>
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full '
+            src={GitHub}
             alt=''
             width={300}
             height={300}
           />
-          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full bg-[#9c7626]'
-            src={CSS}
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full '
+            src={Tailwind}
             alt=''
             width={300}
             height={300}
           />
-          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full bg-[#9c7626] '
-            src={Java}
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full'
+            src={JavaScript}
             alt=''
             width={300}
             height={300}
           />
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full  '
+            src={HTML}
+            alt=''
+            width={300}
+            height={300}
+          />
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full  '
+            src={react}
+            alt=''
+            width={300}
+            height={300}
+          />
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full  '
+            src={node}
+            alt=''
+            width={300}
+            height={300}
+          />
+          <Image className=' h-6 w-6 md:h-10 md:w-10 rounded-full  '
+            src={oracle}
+            alt=''
+            width={300}
+            height={300}
+          />
+
         </div>
         
         {/* Display start and end date */}
@@ -60,15 +90,15 @@ function ExperienceCard({}: Props) {
           <ul className=' list-disc space-y-0 ml-3 
         text-[11px]'
         >
-          <li>Advanced Programming</li>
-          <li>Data Structures & Algorithms</li>
-          <li>OOP with Java</li>
+          <li>Responsive Design</li>
+          <li>New Feature Development</li>
+          <li>Cross-Functional Collaboration</li>
           <li>Database Management</li>
-          <li>Software Engineering</li>
-          <li>Web Development</li>
-          <li>Machine Learning</li>
-          <li>User Interface Design</li>
-          <li>Honors Research Project</li>
+          <li>Data Retrieval Efficiency</li>
+          <li>Problem Solving</li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </div>
     </article>

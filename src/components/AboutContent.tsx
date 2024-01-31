@@ -25,7 +25,7 @@ import dynamic from "next/dynamic";
           whileInView={{ opacity: 1, x: 0 }}
         //viewport={{ once: true }}
           src='https://media.licdn.com/dms/image/D4E03AQFdvOgeaAqqIA/profile-displayphoto-shrink_400_400/0/1704877804333?e=1710979200&v=beta&t=pf0VFNI-o_9wCdYSZeLgd9wG0PhMoFtdFaD5Ny_NtXU' 
-          className='flex  p-0  bg-stone-50 w-[120px] h-[120px]  sm:w-[120px] sm:h-[120px] flex-shrink-0  rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[350px]'
+          className='flex  p-0  bg-stone-50 w-20 h-20  sm:w-[120px] sm:h-[120px] flex-shrink-0  rounded-full object-cover md:rounded-lg md:w-[300px] md:h-[350px]'
       />
         
       {/* Display the "Here is a little background" subtitle */}

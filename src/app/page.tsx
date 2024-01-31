@@ -8,7 +8,7 @@ import About from '../components/About';
 import ContactMe from '../components/ContactMe';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import WorkExperience from '@/components/WorkExperience';
+import WorkExperience from '@/components/Experience';
 import { getSocials } from '@/libs/api';
 import Image from 'next/image';
 
