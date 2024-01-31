@@ -1,4 +1,4 @@
-{/* From Deploy Branch */}
+{/* From newFeature Branch*/}
 import Head from 'next/head';
 import type { GetStaticProps, NextPage } from 'next';
 import Skills from '../components/Skills';
